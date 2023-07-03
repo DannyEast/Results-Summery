@@ -1,0 +1,130 @@
+.body {
+    font-family: "Hanken Grotesk", sans-serif;
+    display: flex;
+    background-color:hsl(221, 100%, 96%);
+}
+
+.section-1 {
+    width: 300px;
+    height: 400px;
+    background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%) );
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    border-radius: 35px;
+}
+
+.box {
+    background-color:whitesmoke;
+    border-radius: 35%;
+    display:flex;
+    margin-left:25%;
+    margin-top:10%;
+    box-shadow: 0 1rem 4rem black 0.6;
+}
+
+.section-2 {
+    display:flex;
+    width: 300px;
+    height: 400px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    flex-direction:column;
+    align-items:center;
+    justify-content: space-evenly;
+}
+
+.your-result {
+    margin-top: 30px;
+    font-size:18px;
+   color : hsl(241, 100%, 89% );
+   margin-bottom: 15px;
+}
+
+.circle {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width:160px;
+    height:160px;
+    border-radius:50%;
+    background: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    align-items: center;
+}
+
+.no-76 {
+    font-size: 60px;
+    color: white;
+    font-weight: 700px;
+}
+
+.of-100 {
+    color : hsl(221, 100%, 96%); 
+    opacity: 0.6;
+}
+
+.great {
+    margin-top:25px;
+    font-size:26px;
+    color:white;
+    font-weight: 500;
+}
+
+.paragraph {
+    margin: 10px 40px;
+    font-size: 18px;
+    color : hsl(221, 100%, 96%);
+    opacity: 0.7;
+    align-self: center;
+    text-align:center;
+}
+
+.reaction {
+    display: flex;
+    align-items:center;
+    margin-top:20px;
+    width:240px;
+    height:50px;
+    background-color:hsla(0, 100%, 67%, 0.075);
+    border-radius: 5px; 
+    
+    /* 240boxlength */
+}
+
+.no100 {
+    color : hsl(241, 100%, 89% );
+}
+
+.span {
+    margin-left: 85px;
+}
+
+.reaction-2 {
+    margin-left:10px;
+    color:hsl(0, 100%, 67%);
+    font-weight: 500;
+}
+
+.Memory {
+    display: flex;
+    align-items:center;
+    margin-top:20px;
+    width:240px;
+    height:50px;
+    background-color:hsla(39, 100%, 56%, 0.075);
+    border-radius: 5px; 
+    
+    /* 240boxlength */
+}
+
+.memory {
+    margin-left: 10px;
+    color: hsl(39, 100%, 56%)
+
+}
+
+.memoryno {
+    margin-left:90px;
+    font-weight: 500;
+}
